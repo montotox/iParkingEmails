@@ -1,0 +1,43 @@
+---
+subject: Validá tu correo!
+---
+
+<container class="cuerpo">
+  <row>
+      <columns class="logoHeader" small="12" large="12">
+        <center>
+          <img src="http://iparking.com.ar/email-assets/validationPublic2020_04_29/img/Tansparente_negro_LOGO.png" alt="Logo iParking" size="16" class="logo">
+        </center>
+      </columns>
+  </row>
+  <row>
+  <img src="http://iparking.com.ar/email-assets/validationPublic2020_04_29/img/publicValidation.png" alt="publicValidation" class="welcome">
+  <h4 class="text-center">{[header]}</h4>
+  </row>
+  <row>
+  <columns small="12" large="12" class="subheader">
+    <h5 class="text-center">{[action]}</h5>
+    <p style="color: #484848; line-height: 1.1;" class="text-center">Hacé click en verificar email para que puedas utilizar iParking.</p>
+    <center>
+      <button href="[EmailVerificateFirebaseUri]" class="radius">VERIFICAR EMAIL</button>
+    </center>
+  </columns>
+  </row>
+  <row>
+    <columns small="12" large="12">
+      <hr>
+    </columns>
+  </row>
+  <center>
+    <p style="color: #484848; line-height: 1.1;" class="text-center" id="question">¿Alguna consulta?</p>
+    <a href="mailto:hola@iparking.com.ar?subject=Consulta%20de%20{[parkingNameUri]}_{[userEmailUri]}" class="email">hola@iparking.com.ar</a>
+    <p style="color: #949494; line-height: 1.1;" class="text-center" id="footer">Estas suscripto a iParking. Antes de imprimir este correo pensá bien si es necesario: El medio ambiente es cuestión de todos.</p>
+  </center>
+  <spacer size="16"></spacer>
+  <p class="text-right" style="color: #747373; font-size: 10px; padding-right: 20px;">Parking ID = {[parkingId]}</p>
+</container>
+<menu small="12" large="12">
+  <item href="https://www.facebook.com/IParkingArg/"><img src="http://iparking.com.ar/email-assets/validationPublic2020_04_29/img/facebook.png" alt="Facebook" class="social"></item>
+  <item href="https://www.instagram.com/iparking.app/"><img src="http://iparking.com.ar/email-assets/validationPublic2020_04_29/img/instagram.png" alt="Instagram" class="social"></item>
+  <item href="https://twitter.com/neurabox"><img src="http://iparking.com.ar/email-assets/validationPublic2020_04_29/img/twitter.png" alt="Twitter" class="social"></item>
+</menu>
