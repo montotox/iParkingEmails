@@ -22,6 +22,6 @@ privateValidation Template:
 topUpLocation Template:
 {[header]}
 {[action]}
-{[topUpLocationName]}
+{[topUpLocationNameUri]}
 {[userEmailUri]}
 {[zoneId]}
